@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	site: "https://wqxzqhqq.github.io/",
 	base: "/",
 	title: "Sumire",
-	subtitle: "记录学习和生活",
+	subtitle: "Love beauty and art",
 	// 电脑端顶栏标题与导航内容区域："left" 左对齐，"center" 居中。
 	topAppBar: {
 		contentAlign: "center",
@@ -64,8 +64,8 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		position: "center 32%",
 		dim: {
 			// 在图片上覆盖黑色遮罩以提高标题和顶部栏的对比度；opacity 范围为 0-1。
-			enable: true,
-			opacity: 0.24,
+			enable: false,
+			opacity: 0.06,
 		},
 		homeText: {
 			// 仅在首页 Banner 中显示，标题与副标题会上下居中排列。

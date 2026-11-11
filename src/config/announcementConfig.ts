@@ -14,7 +14,7 @@ export const announcementConfig: AnnouncementConfig = withUserConfig(
 		link: {
 			enable: true, // 启用链接
 			text: "GitHub", // 链接文本
-			url: "https://github.com", // 链接 URL
+			url: "https://github.com/wqxzqhqq", // 链接 URL
 			external: true, // 外部链接
 		},
 	},

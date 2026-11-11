@@ -64,8 +64,8 @@ const optimizeBannerImage = async (
 			})),
 		);
 	const [avif, webp] = await Promise.all([
-		createCandidates("avif", 62),
-		createCandidates("webp", 80),
+		createCandidates("avif", 72),
+		createCandidates("webp", 88),
 	]);
 	const fallback = webp.at(-1)?.image.src ?? resolved.src;
 	return {
