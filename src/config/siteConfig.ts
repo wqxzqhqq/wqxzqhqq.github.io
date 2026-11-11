@@ -121,7 +121,11 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	},
 	favicon: [
 		// 浏览器标签页图标，路径相对于 public 目录。
-		{ src: "/logo/icon.webp" },
+		{ src: "/favicon/sumire-32.png", sizes: "32x32" },
+		{ src: "/favicon/sumire-48.png", sizes: "48x48" },
+		{ src: "/favicon/sumire-128.png", sizes: "128x128" },
+		{ src: "/favicon/sumire-180.png", sizes: "180x180" },
+		{ src: "/favicon/sumire-192.png", sizes: "192x192" },
 	],
 });
 
